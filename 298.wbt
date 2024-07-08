@@ -1,0 +1,138 @@
+#VRML_SIM R2022a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.22573392696509834 -0.2701107029691788 0.9359938046581354 4.825488169936122
+  position -2.026485115268537 7.752478564110763 5.873235834103093
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  translation 0 -0.45 0.53
+  floorSize 5 5
+}
+Solid {
+  translation 0 -0.45 0.59
+  scale 5 5 5
+  children [
+    Shape {
+      geometry Plane {
+      }
+    }
+  ]
+}
+Solid {
+  translation 0 1.57 0.66
+  children [
+    Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(1)"
+}
+Solid {
+  translation 1.5 1.57 0.66
+  children [
+    Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(2)"
+}
+Solid {
+  translation 0.42 -1.54 0.66
+  children [
+    Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(3)"
+}
+Solid {
+  translation 1.1 -0.6 0.65
+  children [
+    Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(4)"
+}
+Solid {
+  translation -1.1 -2.02 0.66
+  children [
+    Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(5)"
+}
+Solid {
+  translation -1.97 0.64 0.66
+  children [
+    Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(6)"
+}
+Solid {
+  translation -1.01 -0.09 0.66
+  children [
+    Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(7)"
+}
+Solid {
+  translation -1.37 1.57 0.66
+  children [
+    Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(8)"
+}
+Robot {
+  translation 0 0.2 1.19
+  children [
+    Shape {
+      appearance PBRAppearance {
+      }
+    }
+  ]
+}
